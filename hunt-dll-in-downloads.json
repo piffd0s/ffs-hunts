@@ -1,0 +1,5 @@
+{"groups":[{"filters":
+	[{"operator":"IS","term":"filePath","value":"c:/users/*/Downloads/*"},
+		{"operator":"IS","term":"fileName","value":"*.dll"},
+		{"operator":"IS","term":"eventType","value":"CREATED"},
+		{"operator":"IS_NOT","term":"fileOwner","value":"system"}]}]}
