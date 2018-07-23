@@ -1,0 +1,4 @@
+{"groups":[{"filters":
+	[{"operator":"IS","term":"fileName","value":"*.docm"},
+	{"operator":"IS","term":"eventType","value":"CREATED"},
+	{"operator":"IS_NOT","term":"fileOwner","value":"system"}]}]}
